@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { Login } from "./Login";
-import { Button } from "./button";
 
 const setup = () => {
   render(<Login />);
@@ -21,18 +20,7 @@ test("render label", () => {
   expect(screen.getByText("비밀번호")).toBeInTheDocument();
 });
 
-test("submit button action", () => {
-  const onClick = jest.fn();
-  render(<Button title="로그인" onClick={onClick} />);
-
-  const button = screen.getByText("로그인");
-  expect(button).toBeInTheDocument();
-
-  fireEvent.click(button);
-  expect(onClick).toBeCalledTimes(1);
-});
-
-test("button disabled until regex test succeed", () => {
+test("Button disabled until regex test succeed", () => {
   const { emailInput, passwordInput, submitButton } = setup();
   expect(submitButton).toBeDisabled();
 

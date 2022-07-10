@@ -1,4 +1,4 @@
-import { Button } from "./button";
+import { Button } from "./Button";
 import { useMemo, useState } from "react";
 
 export const Login = () => {
