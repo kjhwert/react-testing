@@ -12,5 +12,5 @@
    3. DB/API 등 외부에서 가져온 결과를 사용하는 코드
 
 ### 참고자료
-[https://jojoldu.tistory.com/674](https://jojoldu.tistory.com/674)
-[https://maeng2418.github.io/react/react_testing_library/?fbclid=IwAR19NXplUrAKKkxkcYNuN12w3XH_-sL5cvQauzpadH2zygZU6CQvv4piqRI](https://maeng2418.github.io/react/react_testing_library/?fbclid=IwAR19NXplUrAKKkxkcYNuN12w3XH_-sL5cvQauzpadH2zygZU6CQvv4piqRI)
+- [https://jojoldu.tistory.com/674](https://jojoldu.tistory.com/674)
+- [https://maeng2418.github.io/react/react_testing_library/?fbclid=IwAR19NXplUrAKKkxkcYNuN12w3XH_-sL5cvQauzpadH2zygZU6CQvv4piqRI](https://maeng2418.github.io/react/react_testing_library/?fbclid=IwAR19NXplUrAKKkxkcYNuN12w3XH_-sL5cvQauzpadH2zygZU6CQvv4piqRI)
